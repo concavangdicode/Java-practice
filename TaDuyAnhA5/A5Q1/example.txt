@@ -1,0 +1,10 @@
+5
+John Doe
+Jane Smith
+PURCHASE
+Alice Johnson
+Bob Brown
+PURCHASE
+Charlie Davis
+David Lee
+PURCHASE

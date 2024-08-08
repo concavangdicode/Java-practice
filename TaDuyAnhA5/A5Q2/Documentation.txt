@@ -1,0 +1,33 @@
+/*
+*
+* [Documentation.txt]
+*
+* COMP 1020 SECTION [A01]
+* INSTRUCTOR: [Lauren Himbeaul]
+* NAME: [Duy Anh Ta]
+* ASSIGNMENT: [Assignment 5]
+* QUESTION: [question 2]
+*
+* PURPOSE: [Documentation of testing and validation]
+*/
+
+Testing:
+There are 4 steps to test the shuffling algorithm:
+
+1. **Randomness Test:**
+   The shuffle method was run multiple times and checked whether the resulting order was sufficiently random. A successful shuffle would show that cards are distributed across the deck unpredictably.
+
+2. **Card Position Test:**
+   The position of specific cards was tracked before and after shuffling. A successful shuffle would mean that cards are not maintaining their positions consistently.
+
+3. **Equal Distribution Test:**
+   Each card has an approximately equal chance of ending up in any position in the deck after shuffling. This is crucial for a fair card game.
+
+4. **Multiple Shuffles Test:**
+   The deck was iteratively shuffled multiple times to ensure that repeated shuffling still produced diverse and unbiased results.
+
+To convince buyers: 
+    The program is tested multiple times in our testing process to demonstrate its consistency and reliability. 
+    A successful shuffle is defined by the algorithm producing a deck where each card has an approximately equal probability of appearing in any position. We verified this by visually inspecting shuffled decks 
+    To prevent any bias or predictability, cards should not maintain their positions during shuffling. Our algorithm ensures that cards are thoroughly mixed, promoting fairness in digital card games.
+    To assure non-technical stakeholders, we emphasize the Fisher-Yates algorithm's industry reputation for fairness and randomness.
